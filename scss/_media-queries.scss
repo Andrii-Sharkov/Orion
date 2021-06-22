@@ -1,0 +1,63 @@
+@media screen and (max-width: 1200px) {
+  .header,
+  .features-container,
+  .showcase-describing,
+  .testimonials .testimonial-container,
+  body .footer-container .footer-content {
+    margin: 0 20px;
+  } 
+}
+
+@media screen and (max-width: 1050px) {
+  .showcase-describing {
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 15px;
+    text-align: center;
+    margin: auto 20px;
+
+    .row h3 {
+      text-align: center;
+    }
+  }
+
+  .features-container {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .features-container {
+    grid-template-columns: auto;
+  }
+
+  .testimonials .testimonial-container {
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body .title .title-container .title-main {
+    font-size: 2rem;
+  }
+
+  .footer-container .footer-content {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-container .footer-content p {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header .modal-form {
+    width: 300px;
+    height: 400px;
+    max-width: 100%;
+  }
+}
